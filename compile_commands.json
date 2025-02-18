@@ -1,0 +1,8 @@
+[
+    {
+        "command": "g++ -o src\\main.o -c -IC:\\VulkanSDK\\glfw\\include -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\lglm -IC:\\VulkanSDK\\sdl\\include src\\main.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\main.cpp",
+        "output": "src\\main.o"
+    }
+]

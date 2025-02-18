@@ -1,6 +1,6 @@
 import platform
 
-env = Environment()
+env = Environment(COMPILATIONDB_USE_ABSPATH=True)
 env.Append(CXXFLAGS="-std=c++17")
 env["STATIC_AND_SHARED_OBJECTS_ARE_THE_SAME"] = 1
 
@@ -24,4 +24,6 @@ if platform.system() == "Windows":
 else:
     env["LIBS"] = ["SDL3"]
 
+env.Tool('compilation_db')
+env.CompilationDatabase()
 env.Program("program", Glob("src/*.cpp"))

@@ -11,6 +11,7 @@ if platform.system() == "Windows":
             "C:/VulkanSDK/1.4.304.0/Include/",
             "C:/VulkanSDK/lglm/",
             "C:/VulkanSDK/sdl/include/",
+            "C:/VulkanSDK/glew-2.1.0/include/"
         ]
     )
 
@@ -18,9 +19,10 @@ if platform.system() == "Windows":
         "C:/VulkanSDK/glfw/lib-mingw-w64/",
         "C:/VulkanSDK/1.4.304.0/Lib/",
         "C:/VulkanSDK/sdl/lib/",
+        "C:/VulkanSDK/glew-2.1.0/lib/"
     ]
 
-    env["LIBS"] = ["glfw3", "vulkan-1", "gdi32", "SDL3"]
+    env["LIBS"] = ["glfw3", "glu32","glew32", "opengl32", "vulkan-1", "gdi32", "SDL3"]
 else:
     env["LIBS"] = ["SDL3"]
 

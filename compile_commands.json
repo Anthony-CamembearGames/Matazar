@@ -1,8 +1,20 @@
 [
     {
-        "command": "g++ -o src\\main.o -c -IC:\\VulkanSDK\\glfw\\include -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\lglm -IC:\\VulkanSDK\\sdl\\include src\\main.cpp",
+        "command": "g++ -o src\\game.o -c -IC:\\VulkanSDK\\glfw\\include -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\lglm -IC:\\VulkanSDK\\sdl\\include -IC:\\VulkanSDK\\glew-2.1.0\\include src\\game.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\game.cpp",
+        "output": "src\\game.o"
+    },
+    {
+        "command": "g++ -o src\\main.o -c -IC:\\VulkanSDK\\glfw\\include -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\lglm -IC:\\VulkanSDK\\sdl\\include -IC:\\VulkanSDK\\glew-2.1.0\\include src\\main.cpp",
         "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
         "file": "src\\main.cpp",
         "output": "src\\main.o"
+    },
+    {
+        "command": "g++ -o src\\vertexarray.o -c -IC:\\VulkanSDK\\glfw\\include -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\lglm -IC:\\VulkanSDK\\sdl\\include -IC:\\VulkanSDK\\glew-2.1.0\\include src\\vertexarray.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\vertexarray.cpp",
+        "output": "src\\vertexarray.o"
     }
 ]

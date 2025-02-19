@@ -5,10 +5,8 @@ int main(int argc, char *argv[]) {
 
   Game game;
 
-  bool gameIsInitialised = game.Initilize();
+  bool gameIsInitialised = game.Initialize();
 
-  std::cout << std::boolalpha;
-  std::cout << "  Game is initialised:   " << gameIsInitialised << std::endl;
 
   if (gameIsInitialised) {
 

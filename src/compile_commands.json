@@ -1,0 +1,26 @@
+[
+    {
+        "command": "g++ -o src\\VkBootstrap.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\VkBootstrap.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\VkBootstrap.cpp",
+        "output": "src\\VkBootstrap.o"
+    },
+    {
+        "command": "g++ -o src\\game.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\game.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\game.cpp",
+        "output": "src\\game.o"
+    },
+    {
+        "command": "g++ -o src\\main.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\main.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\main.cpp",
+        "output": "src\\main.o"
+    },
+    {
+        "command": "g++ -o src\\vulkanrenderer.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vulkanrenderer.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\vulkanrenderer.cpp",
+        "output": "src\\vulkanrenderer.o"
+    }
+]

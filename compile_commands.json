@@ -18,6 +18,18 @@
         "output": "src\\main.o"
     },
     {
+        "command": "g++ -o src\\vk_images.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vk_images.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\vk_images.cpp",
+        "output": "src\\vk_images.o"
+    },
+    {
+        "command": "g++ -o src\\vk_initializers.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vk_initializers.cpp",
+        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
+        "file": "src\\vk_initializers.cpp",
+        "output": "src\\vk_initializers.o"
+    },
+    {
         "command": "g++ -o src\\vulkanrenderer.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vulkanrenderer.cpp",
         "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
         "file": "src\\vulkanrenderer.cpp",

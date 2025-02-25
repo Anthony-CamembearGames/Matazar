@@ -31,7 +31,13 @@ if platform.system() == "Windows":
     #env["LIBS"] = ["glfw3", "glu32","glew32", "opengl32", "vulkan-1", "gdi32", "SDL3"]
     env["LIBS"] = ["vulkan-1", "SDL3"]
 else:
-    env["LIBS"] = ["SDL3"]
+    env = Environment(
+        CPPPATH=[
+        "/usr/include"
+
+        ]
+    )
+    env["LIBS"] = ["SDL3", "vulkan"]
 
 env.Tool('compilation_db')
 env.CompilationDatabase()

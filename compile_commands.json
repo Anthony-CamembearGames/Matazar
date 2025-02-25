@@ -1,38 +1,38 @@
 [
     {
-        "command": "g++ -o src\\VkBootstrap.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\VkBootstrap.cpp",
-        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
-        "file": "src\\VkBootstrap.cpp",
-        "output": "src\\VkBootstrap.o"
+        "command": "g++ -o src/VkBootstrap.o -c -I/usr/include src/VkBootstrap.cpp",
+        "directory": "/home/anthony/Cpp/Matazar",
+        "file": "src/VkBootstrap.cpp",
+        "output": "src/VkBootstrap.o"
     },
     {
-        "command": "g++ -o src\\game.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\game.cpp",
-        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
-        "file": "src\\game.cpp",
-        "output": "src\\game.o"
+        "command": "g++ -o src/game.o -c -I/usr/include src/game.cpp",
+        "directory": "/home/anthony/Cpp/Matazar",
+        "file": "src/game.cpp",
+        "output": "src/game.o"
     },
     {
-        "command": "g++ -o src\\main.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\main.cpp",
-        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
-        "file": "src\\main.cpp",
-        "output": "src\\main.o"
+        "command": "g++ -o src/main.o -c -I/usr/include src/main.cpp",
+        "directory": "/home/anthony/Cpp/Matazar",
+        "file": "src/main.cpp",
+        "output": "src/main.o"
     },
     {
-        "command": "g++ -o src\\vk_images.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vk_images.cpp",
-        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
-        "file": "src\\vk_images.cpp",
-        "output": "src\\vk_images.o"
+        "command": "g++ -o src/vk_images.o -c -I/usr/include src/vk_images.cpp",
+        "directory": "/home/anthony/Cpp/Matazar",
+        "file": "src/vk_images.cpp",
+        "output": "src/vk_images.o"
     },
     {
-        "command": "g++ -o src\\vk_initializers.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vk_initializers.cpp",
-        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
-        "file": "src\\vk_initializers.cpp",
-        "output": "src\\vk_initializers.o"
+        "command": "g++ -o src/vk_initializers.o -c -I/usr/include src/vk_initializers.cpp",
+        "directory": "/home/anthony/Cpp/Matazar",
+        "file": "src/vk_initializers.cpp",
+        "output": "src/vk_initializers.o"
     },
     {
-        "command": "g++ -o src\\vulkanrenderer.o -c -IC:\\VulkanSDK\\1.4.304.0\\Include -IC:\\VulkanSDK\\sdl\\include src\\vulkanrenderer.cpp",
-        "directory": "C:\\Users\\anthony\\Cpp\\Matazar",
-        "file": "src\\vulkanrenderer.cpp",
-        "output": "src\\vulkanrenderer.o"
+        "command": "g++ -o src/vulkanrenderer.o -c -I/usr/include src/vulkanrenderer.cpp",
+        "directory": "/home/anthony/Cpp/Matazar",
+        "file": "src/vulkanrenderer.cpp",
+        "output": "src/vulkanrenderer.o"
     }
 ]
